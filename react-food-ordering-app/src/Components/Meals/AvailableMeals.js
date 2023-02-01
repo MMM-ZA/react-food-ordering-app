@@ -1,3 +1,5 @@
+import classes from './AvailableMeals.module.css';
+
 const DUMMY_MEALS = [
   {
     id: 'm1',
@@ -7,8 +9,8 @@ const DUMMY_MEALS = [
   },
   {
     id: 'm2',
-    name: 'Schnitzel',
-    description: 'A german specialty!',
+    name: 'Red Ramen',
+    description: 'A Japanese specialty!',
     price: 16.5,
   },
   {
@@ -27,14 +29,13 @@ const DUMMY_MEALS = [
 ]
 
 const AvailableMeals = () => {
+ const mealsList = DUMMY_MEALS.map((meal) => <li>{meal.name}</li>);
 
-<section>
-   <ul>
-
-   </ul>
-
+ return (
+<section className={classes.meals}>
+   <ul>{mealsList}</ul>
 </section>
-
+ );
 };
 
 export default AvailableMeals;
