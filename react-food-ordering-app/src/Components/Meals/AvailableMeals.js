@@ -27,6 +27,24 @@ const DUMMY_MEALS = [
     description: 'Healthy...and green...',
     price: 18.99,
   },
+  {
+    id: 'm5',
+    name: 'Margherita Pizza',
+    description: 'Fresh tomato sauce, mozzarella cheese, and basil',
+    price: 14.99,
+  },
+  {
+   id: 'm6',
+  name: 'Hamburger',
+  description: 'Juicy beef patty with lettuce, tomato, and cheese',
+   price: 12.99,
+  },
+{
+  id: 'm7',
+  name: 'Chicken Tikka Masala',
+  description: 'Tender chicken in a spicy tomato-based sauce',
+  price: 18.99,
+}
 
 ]
 
